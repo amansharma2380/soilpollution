@@ -292,11 +292,99 @@ box-shadow:0px 0px 15px rgb(112, 111, 111);
   transition: 0.2s;
   border-radius: 20px;
   opacity: 1;
-
-
+    .footer{
+    background:#333;
 }
 
+.footer .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin:0 auto;
+}
 
+.footer .box-container .box{
+    margin:2rem;
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box .logo{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color:#ccc;
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share{
+    text-align: center;
+    font-size: 3rem;
+    color:#fff;
+}
+
+.footer .box-container .box:nth-child(2) a{
+    text-align: center;
+    font-size: 1.7rem;
+    color:#eee;
+    display: block;
+    padding:.5rem 0;
+}
+
+.footer .box-container .box:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .letter{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.footer .box-container .box form input[type="text"]{
+    padding:0 1rem;
+    outline:none;
+    border:.2rem solid var(--green);
+    background:none;
+    font-size: 1.7rem;
+    color:#fff;
+    height:4rem;
+    width:74%;
+}
+
+.footer .box-container .box form button{
+    outline:none;
+    border:none;
+    background:var(--green);
+    font-size: 1.9rem;
+    color:#fff;
+    height:4rem;
+    width:25%;
+    cursor: pointer;
+}
+
+.footer .box-container .box form button:hover{
+    color:var(--green);
+    background:none;
+    border:.1rem solid var(--green);
+}
+
+.footer .credit{
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+    width:85%;
+    margin:0 auto;
+    padding:2rem 1rem;
+    border-top: .1rem solid #ccc;
+}
+
+.footer .credit span{
+    color:var(--green);
+}
 </style>
 <script>
   alert("this webpage is the conceptual.")
@@ -450,6 +538,43 @@ box-shadow:0px 0px 15px rgb(112, 111, 111);
             in mitigating POL polluted sites within the UN field missions.
           </div>
     </div>
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <a href="#" class="logo"><i class="fa fa-globe" aria-hidden="true"></i>soil</a>
+        <p>pollution is a growing threat,
+            Affecting health and environment we get,
+            Let's take action and not just fret,
+            Be the solution, and our planet protect.</p>
+    </div>
+
+    <div class="box">
+        <h3 class="share">share</h3>
+        <a href="https://www.facebook.com/">facebook</a>
+        <a href="https://twitter.com/">twitter</a>
+        <a href="https://www.instagram.com/">instagram</a>
+    </div>
+
+    <div class="box">
+        <h3 class="letter">Give your Review</h3>
+        <form action="">
+            <input type="text" placeholder="enter feedback">
+            <button type="submit" class="fas fa-paper-plane"></button>
+        </form>
+    </div>
+
+</div>
+
+<h1 class="credit">created by <span>mr. aman mishra,aman sharma & ankush</span> | all rights reserved. </h1>
+
+</section>
+
+<!-- footer section ends -->
+
 
 
 
